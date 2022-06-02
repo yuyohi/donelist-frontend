@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.9.2",
+    "@types/prettier": "^2.6.1",
     "@types/testing-library__jest-dom": "^5.14.3",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
@@ -68,6 +69,7 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
+    "react-test-renderer": "^18.1.0",
     "simple-git-hooks": "^2.7.0",
     "stylelint": "^14.8.3",
     "stylelint-config-recess-order": "^3.0.0",

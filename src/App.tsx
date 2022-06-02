@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
+import { FC } from 'react';
+import Box from '@mui/material/Box';
 import './App.css';
+import TaskCardList from 'components/organisms/taskCardList';
 
-const App = () => (
-  <div className="app">
-    <header className="app-header">
-      <img src={logo} className="app-logo" alt="logo" />
-      <p>
-        Edit
-        <code>src/App.tsx</code>
-        and save to reload.
-      </p>
-      <a
-        className="app-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+const App: FC = () => (
+  <Box>
+    <TaskCardList checkCardProps={[{ task: '宿題' }, { task: '研究' }]} />
+  </Box>
 );
 
 export default App;
