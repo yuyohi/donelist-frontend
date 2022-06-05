@@ -1,11 +1,10 @@
 import { FC } from 'react';
 import Box from '@mui/material/Box';
-import './App.css';
-import TaskCardList from 'components/organisms/taskCardList';
+import MainWindow from 'components/templates/mainWindow';
 
 const App: FC = () => (
   <Box>
-    <TaskCardList checkCardProps={[{ task: '宿題' }, { task: '研究' }]} />
+    <MainWindow />
   </Box>
 );
 
