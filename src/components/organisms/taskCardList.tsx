@@ -6,7 +6,7 @@ import { TaskCard, CheckCardProps } from 'components/molecules/taskCard';
 const TaskCardList: FC<{ checkCardProps: CheckCardProps[] }> = ({
   checkCardProps,
 }) => (
-  <Box sx={{ width: '100%' }}>
+  <Box sx={{ width: '100%', mt: 10 }}>
     <Stack spacing={2}>
       {checkCardProps.map(({ task }) => (
         <TaskCard task={task} key={task} />

@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
 export type CheckCardProps = {
@@ -8,9 +9,11 @@ export type CheckCardProps = {
 
 const TaskCard: FC<CheckCardProps> = ({ task }) => (
   <Card>
-    <Typography variant="h4" component="h4">
-      {task}
-    </Typography>
+    <CardContent>
+      <Typography variant="h5" component="h5">
+        {task}
+      </Typography>
+    </CardContent>
   </Card>
 );
 
